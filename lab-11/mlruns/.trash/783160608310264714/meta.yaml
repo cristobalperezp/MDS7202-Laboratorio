@@ -1,0 +1,7 @@
+artifact_location: file:///Users/cristobalperez/lab-11/mlruns/783160608310264714
+creation_time: 1688594954294
+experiment_id: '783160608310264714'
+last_update_time: 1688599169964
+lifecycle_stage: deleted
+name: LinearRegression Base Parameters
+tags: {}

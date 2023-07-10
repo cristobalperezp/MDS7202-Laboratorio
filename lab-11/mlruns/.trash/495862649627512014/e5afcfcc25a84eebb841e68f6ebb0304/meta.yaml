@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/cristobalperez/lab-11/mlruns/495862649627512014/e5afcfcc25a84eebb841e68f6ebb0304/artifacts
+deleted_time: 1688939195951
+end_time: 1688601497577
+entry_point_name: ''
+experiment_id: '495862649627512014'
+lifecycle_stage: deleted
+run_id: e5afcfcc25a84eebb841e68f6ebb0304
+run_name: RandomForestRegressor Base Parameters
+run_uuid: e5afcfcc25a84eebb841e68f6ebb0304
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688601495106
+status: 3
+tags: []
+user_id: cristobalperez

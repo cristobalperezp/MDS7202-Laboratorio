@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/cristobalperez/lab-11/mlruns/866775330101378962/27be4e98c0c044b7ab9ef4a0fffea428/artifacts
+deleted_time: 1688600271464
+end_time: 1688600044373
+entry_point_name: ''
+experiment_id: '866775330101378962'
+lifecycle_stage: deleted
+run_id: 27be4e98c0c044b7ab9ef4a0fffea428
+run_name: XGBRegressor Base Parameters
+run_uuid: 27be4e98c0c044b7ab9ef4a0fffea428
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688600042002
+status: 3
+tags: []
+user_id: cristobalperez

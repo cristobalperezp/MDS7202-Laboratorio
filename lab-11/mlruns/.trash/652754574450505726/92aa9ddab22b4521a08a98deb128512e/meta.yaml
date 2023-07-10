@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/cristobalperez/lab-11/mlruns/652754574450505726/92aa9ddab22b4521a08a98deb128512e/artifacts
+deleted_time: 1688599160335
+end_time: 1688598598121
+entry_point_name: ''
+experiment_id: '652754574450505726'
+lifecycle_stage: deleted
+run_id: 92aa9ddab22b4521a08a98deb128512e
+run_name: LGBMRegressor
+run_uuid: 92aa9ddab22b4521a08a98deb128512e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688598595842
+status: 3
+tags: []
+user_id: cristobalperez

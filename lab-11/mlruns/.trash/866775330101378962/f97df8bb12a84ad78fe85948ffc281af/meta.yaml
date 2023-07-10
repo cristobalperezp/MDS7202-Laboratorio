@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/cristobalperez/lab-11/mlruns/866775330101378962/f97df8bb12a84ad78fe85948ffc281af/artifacts
+deleted_time: 1688600271464
+end_time: 1688600030109
+entry_point_name: ''
+experiment_id: '866775330101378962'
+lifecycle_stage: deleted
+run_id: f97df8bb12a84ad78fe85948ffc281af
+run_name: LinearRegression Base Parameters
+run_uuid: f97df8bb12a84ad78fe85948ffc281af
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688600028016
+status: 3
+tags: []
+user_id: cristobalperez

@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/cristobalperez/lab-11/mlruns/331928131034476139/f9279517420f4ce48012fb93d9d3b9a7/artifacts
+deleted_time: 1688600274661
+end_time: 1688599497421
+entry_point_name: ''
+experiment_id: '331928131034476139'
+lifecycle_stage: deleted
+run_id: f9279517420f4ce48012fb93d9d3b9a7
+run_name: SVR Base Parameters
+run_uuid: f9279517420f4ce48012fb93d9d3b9a7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688599488082
+status: 3
+tags: []
+user_id: cristobalperez

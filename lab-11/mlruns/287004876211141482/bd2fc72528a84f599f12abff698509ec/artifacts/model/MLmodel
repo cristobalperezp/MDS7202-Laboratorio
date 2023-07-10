@@ -1,0 +1,26 @@
+artifact_path: model
+flavors:
+  python_function:
+    data: model.xgb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.10.2
+  xgboost:
+    code: null
+    data: model.xgb
+    model_class: xgboost.sklearn.XGBRegressor
+    model_format: xgb
+    xgb_version: 1.7.1
+mlflow_version: 2.4.1
+model_uuid: 36e056450487452282b058f145a1b35d
+run_id: bd2fc72528a84f599f12abff698509ec
+signature:
+  inputs: '[{"type": "double", "name": "engines"}, {"type": "long", "name": "passenger_capacity"},
+    {"type": "double", "name": "crew"}, {"type": "boolean", "name": "d_check_complete"},
+    {"type": "boolean", "name": "moon_clearance_complete"}, {"type": "boolean", "name":
+    "iata_approved"}, {"type": "double", "name": "company_rating"}, {"type": "double",
+    "name": "review_scores_rating"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float32", "shape": [-1]}}]'
+utc_time_created: '2023-07-09 21:45:58.706512'

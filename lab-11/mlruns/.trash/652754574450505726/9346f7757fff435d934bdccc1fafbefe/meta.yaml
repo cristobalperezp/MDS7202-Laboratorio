@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/cristobalperez/lab-11/mlruns/652754574450505726/9346f7757fff435d934bdccc1fafbefe/artifacts
+deleted_time: 1688599160335
+end_time: 1688598593199
+entry_point_name: ''
+experiment_id: '652754574450505726'
+lifecycle_stage: deleted
+run_id: 9346f7757fff435d934bdccc1fafbefe
+run_name: SVR
+run_uuid: 9346f7757fff435d934bdccc1fafbefe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688598583777
+status: 3
+tags: []
+user_id: cristobalperez

@@ -1,0 +1,61 @@
+# Here you can define all your data sets by using simple YAML syntax.
+#
+# Documentation for this file format can be found in "The Data Catalog"
+# Link: https://docs.kedro.org/en/stable/data/data_catalog.html
+
+# Datos de entrada
+companies:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/companies.csv
+
+shuttles:
+  type: pandas.ExcelDataSet
+  filepath: data/01_raw/shuttles.xlsx
+
+reviews:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/reviews.csv
+
+# Datos intermedios en formato Parquet
+preprocessed_companies:
+  type: pandas.ParquetDataSet
+  filepath: data/02_intermediate/preprocessed_companies.parquet
+
+preprocessed_shuttles:
+  type: pandas.ParquetDataSet
+  filepath: data/02_intermediate/preprocessed_shuttles.parquet
+
+# Datos finales en formato Parquet
+model_input_table:
+  type: pandas.ParquetDataSet
+  filepath: data/03_primary/model_input_table.parquet
+
+# Salida del holdout en formato Parquet
+X_train:
+  type: pandas.ParquetDataSet
+  filepath: data/05_model_input/X_train.parquet
+
+X_valid:
+  type: pandas.ParquetDataSet
+  filepath: data/05_model_input/X_valid.parquet
+
+X_test:
+  type: pandas.ParquetDataSet
+  filepath: data/05_model_input/X_test.parquet
+
+y_train:
+  type: pandas.ParquetDataSet
+  filepath: data/05_model_input/y_train.parquet
+
+y_valid:
+  type: pandas.ParquetDataSet
+  filepath: data/05_model_input/y_valid.parquet
+
+y_test:
+  type: pandas.ParquetDataSet
+  filepath: data/05_model_input/y_test.parquet
+
+# Salida de train_model en formato pickle
+best_model:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/best_model.pickle

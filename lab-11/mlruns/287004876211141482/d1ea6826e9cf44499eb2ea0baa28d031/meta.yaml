@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/cristobalperez/lab-11/mlruns/287004876211141482/d1ea6826e9cf44499eb2ea0baa28d031/artifacts
+end_time: 1688939157544
+entry_point_name: ''
+experiment_id: '287004876211141482'
+lifecycle_stage: active
+run_id: d1ea6826e9cf44499eb2ea0baa28d031
+run_name: SVR Base Parameters
+run_uuid: d1ea6826e9cf44499eb2ea0baa28d031
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688939148216
+status: 3
+tags: []
+user_id: cristobalperez
